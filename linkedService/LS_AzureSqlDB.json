@@ -1,0 +1,23 @@
+{
+	"name": "LS_AzureSqlDB",
+	"properties": {
+		"annotations": [],
+		"type": "AzureSqlDatabase",
+		"typeProperties": {
+			"server": "caaresync-server.database.windows.net",
+			"database": "caaresync-db",
+			"encrypt": "mandatory",
+			"trustServerCertificate": false,
+			"authenticationType": "SQL",
+			"userName": "admin-caaresync",
+			"password": {
+				"type": "AzureKeyVaultSecret",
+				"store": {
+					"referenceName": "LS_KeyVault",
+					"type": "LinkedServiceReference"
+				},
+				"secretName": "metadata-db"
+			}
+		}
+	}
+}
