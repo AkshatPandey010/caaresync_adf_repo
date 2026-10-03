@@ -50,7 +50,11 @@
 				"outputs": [
 					{
 						"referenceName": "DS_DelimitedText",
-						"type": "DatasetReference"
+						"type": "DatasetReference",
+						"parameters": {
+							"container": "landing",
+							"folder": "test"
+						}
 					}
 				]
 			}
