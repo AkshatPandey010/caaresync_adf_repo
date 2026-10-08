@@ -9,6 +9,10 @@
 			"env": {
 				"type": "string",
 				"value": "DEV"
+			},
+			"logic_app_url": {
+				"type": "string",
+				"value": "https://prod-20.centralindia.logic.azure.com:443/workflows/cea87ed84e1f41ef978ebd77892aa426"
 			}
 		}
 	},
