@@ -1,0 +1,12 @@
+{
+	"name": "adfCaareSync",
+	"properties": {
+		"globalParameters": {
+			"email_receipent": {
+				"type": "string",
+				"value": "mohitakshat010@gmail.com"
+			}
+		}
+	},
+	"location": "centralindia"
+}
