@@ -12,7 +12,7 @@
 			},
 			"logic_app_url": {
 				"type": "string",
-				"value": "https://prod-20.centralindia.logic.azure.com:443/workflows/cea87ed84e1f41ef978ebd77892aa426"
+				"value": "https://prod-20.centralindia.logic.azure.com:443/workflows/cea87ed84e1f41ef978ebd77892aa426/triggers/When_an_HTTP_request_is_received/paths/invoke?api-version=2016-10-01&sp=%2Ftriggers%2FWhen_an_HTTP_request_is_received%2Frun&sv=1.0&sig=fTQsAGxIlgMJi5Kr7C8TF1dg2FHmEj9Kh8pJh6uaeng"
 			}
 		}
 	},
